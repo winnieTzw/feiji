@@ -14,7 +14,6 @@ document.onmousemove = function (e) {
     // 判断飞机范围，
     var xCheck = flyX > view.offsetLeft && flyX < view.offsetLeft + view.offsetWidth - 126;
     var yCheck = flyY > view.offsetTop && flyY < view.offsetTop + view.offsetHeight - 164;
-
     if (xCheck && yCheck) {
         flyEle.style.top = flyY + 'px';
         flyEle.style.left = flyX + 'px';
@@ -91,7 +90,6 @@ var objF = {
 createFoe(objF);
 // 创建敌机函数
 function createFoe(obj) {
-
     setInterval(function () {
         var flyEle = document.getElementById('fly_me');
         if (flyEle.flag) {
