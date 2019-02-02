@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+}
+#view{
+    width: 480px;
+    height: 852px;
+    background: url('./image/bg.png');
+    margin: 0 auto;
+}
+#fly_me{
+    width: 126px;
+    height: 164px;
+    position: absolute;
+}
