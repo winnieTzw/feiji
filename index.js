@@ -58,7 +58,7 @@ function createButtet(obj) {
             }
             document.body.appendChild(ele);
         }
-    }, 300)
+    }, 100)
 }
 //子弹运动
 function moveBullet() {
